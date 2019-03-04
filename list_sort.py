@@ -3,7 +3,7 @@ from collections import defaultdict
 def list_sort():
                
     listtobesorted = ([2, 0, 6, 5, 1, 7, 'z', 'a'])
-    expected_types = {int, str}
+    expected_types = {int, str, float}
     evens = []
     odds = []
     chars = []
